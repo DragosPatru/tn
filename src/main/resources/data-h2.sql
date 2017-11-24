@@ -1,0 +1,22 @@
+insert into TUNING_EVENT(NAME,COUNTRY,CITY,LATITUDE,LONGITUDE,DESCRIPTION) VALUES ('Event MAZDA','Romania','Timisoara',43.32,44.43,'best event MAZDA ever');
+insert into TUNING_EVENT(NAME,COUNTRY,CITY,LATITUDE,LONGITUDE,DESCRIPTION) VALUES ('Event MINI','Romania','Timisoara',41.32,44.43,'best event MINI ever');
+insert into TUNING_EVENT(NAME,COUNTRY,CITY,LATITUDE,LONGITUDE,DESCRIPTION) VALUES ('Event BMW','Romania','Timisoara',42.32,44.43,'best event BMW ever');		
+insert into TUNING_EVENT(NAME,COUNTRY,CITY,LATITUDE,LONGITUDE,DESCRIPTION) VALUES ('Event AUDI','Romania','Timisoara',40.32,44.43,'best event AUDI ever');
+	
+insert into TUNING_EVENT(NAME,COUNTRY,CITY,LATITUDE,LONGITUDE,DESCRIPTION) VALUES ('Event OPEL','Romania','Timisoara',45.72,44.43,'best event ever');
+insert into TUNING_EVENT(NAME,COUNTRY,CITY,LATITUDE,LONGITUDE,DESCRIPTION) VALUES ('Event MAZDA','Romania','Timisoara',45.82,44.43,'best event ever');
+insert into TUNING_EVENT(NAME,COUNTRY,CITY,LATITUDE,LONGITUDE,DESCRIPTION) VALUES ('Event CHEVROLET','Romania','Timisoara',45.222,44.43,'best event ever');		
+insert into TUNING_EVENT(NAME,COUNTRY,CITY,LATITUDE,LONGITUDE,DESCRIPTION) VALUES ('Event KIA','Romania','Timisoara',54.32,44.43,'best event ever');
+	
+
+insert into TUNING_EVENT(NAME,COUNTRY,CITY,LATITUDE,LONGITUDE,DESCRIPTION) VALUES ('Event MUSTANG','Romania','Timisoara',45.32,44.43,'best event ever');
+insert into TUNING_EVENT(NAME,COUNTRY,CITY,LATITUDE,LONGITUDE,DESCRIPTION) VALUES ('Event DACIA','Romania','Timisoara',45.32,44.43,'best event ever');
+insert into TUNING_EVENT(NAME,COUNTRY,CITY,LATITUDE,LONGITUDE,DESCRIPTION) VALUES ('Event CIELO','Romania','Timisoara',45.32,44.43,'best event ever');		
+insert into TUNING_EVENT(NAME,COUNTRY,CITY,LATITUDE,LONGITUDE,DESCRIPTION) VALUES ('Event MATIZ','Romania','Timisoara',45.32,44.43,'best event ever');
+
+
+insert into USERS(USERNAME,PASSWORD,ENABLED) VALUES ("user","user",1);
+insert into USERS(USERNAME,PASSWORD,ENABLED) VALUES ("admin","admin",1);
+
+insert into AUTHORITY(USERNAME,AUTHORITY) VALUES ("user", "USER");
+insert into AUTHORITY(USERNAME,AUTHORITY) VALUES ("admin", "ADMIN");

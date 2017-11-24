@@ -1,0 +1,225 @@
+2017-11-24 13:26:59.623  INFO 1009 --- [main] com.tuneride.server.TunerideApplication                 : Starting TunerideApplication on Horatius-MacBook-Pro.local with PID 1009 (/Users/corandusadmin/Downloads/tuneride/target/classes started by corandusadmin in /Users/corandusadmin/Downloads/tuneride)
+2017-11-24 13:26:59.636 DEBUG 1009 --- [main] com.tuneride.server.TunerideApplication                 : Running with Spring Boot v1.5.8.RELEASE, Spring v4.3.12.RELEASE
+2017-11-24 13:26:59.636  INFO 1009 --- [main] com.tuneride.server.TunerideApplication                 : The following profiles are active: development
+2017-11-24 13:27:01.742  INFO 1009 --- [main] org.apache.catalina.core.StandardService                : Starting service [Tomcat]
+2017-11-24 13:27:01.744  INFO 1009 --- [main] org.apache.catalina.core.StandardEngine                 : Starting Servlet Engine: Apache Tomcat/8.5.23
+2017-11-24 13:27:01.871  INFO 1009 --- [localhost-startStop-1] he.catalina.core.ContainerBase.[Tomcat].[localhost].[/] : Initializing Spring embedded WebApplicationContext
+2017-11-24 13:27:02.227 DEBUG 1009 --- [main] com.zaxxer.hikari.HikariConfig                          : Driver class found in the HikariConfig class classloader sun.misc.Launcher$AppClassLoader@764c12b6
+2017-11-24 13:27:02.354 DEBUG 1009 --- [main] com.zaxxer.hikari.HikariConfig                          : HikariPool-1 - configuration:
+2017-11-24 13:27:02.356 DEBUG 1009 --- [main] com.zaxxer.hikari.HikariConfig                          : allowPoolSuspension.............false
+2017-11-24 13:27:02.356 DEBUG 1009 --- [main] com.zaxxer.hikari.HikariConfig                          : autoCommit......................true
+2017-11-24 13:27:02.356 DEBUG 1009 --- [main] com.zaxxer.hikari.HikariConfig                          : catalog.........................none
+2017-11-24 13:27:02.356 DEBUG 1009 --- [main] com.zaxxer.hikari.HikariConfig                          : connectionInitSql...............none
+2017-11-24 13:27:02.356 DEBUG 1009 --- [main] com.zaxxer.hikari.HikariConfig                          : connectionTestQuery.............none
+2017-11-24 13:27:02.357 DEBUG 1009 --- [main] com.zaxxer.hikari.HikariConfig                          : connectionTimeout...............30000
+2017-11-24 13:27:02.357 DEBUG 1009 --- [main] com.zaxxer.hikari.HikariConfig                          : dataSource......................none
+2017-11-24 13:27:02.357 DEBUG 1009 --- [main] com.zaxxer.hikari.HikariConfig                          : dataSourceClassName.............none
+2017-11-24 13:27:02.357 DEBUG 1009 --- [main] com.zaxxer.hikari.HikariConfig                          : dataSourceJNDI..................none
+2017-11-24 13:27:02.359 DEBUG 1009 --- [main] com.zaxxer.hikari.HikariConfig                          : dataSourceProperties............{password=<masked>}
+2017-11-24 13:27:02.359 DEBUG 1009 --- [main] com.zaxxer.hikari.HikariConfig                          : driverClassName................."org.h2.Driver"
+2017-11-24 13:27:02.359 DEBUG 1009 --- [main] com.zaxxer.hikari.HikariConfig                          : healthCheckProperties...........{}
+2017-11-24 13:27:02.359 DEBUG 1009 --- [main] com.zaxxer.hikari.HikariConfig                          : healthCheckRegistry.............none
+2017-11-24 13:27:02.359 DEBUG 1009 --- [main] com.zaxxer.hikari.HikariConfig                          : idleTimeout.....................600000
+2017-11-24 13:27:02.360 DEBUG 1009 --- [main] com.zaxxer.hikari.HikariConfig                          : initializationFailFast..........true
+2017-11-24 13:27:02.360 DEBUG 1009 --- [main] com.zaxxer.hikari.HikariConfig                          : initializationFailTimeout.......1
+2017-11-24 13:27:02.360 DEBUG 1009 --- [main] com.zaxxer.hikari.HikariConfig                          : isolateInternalQueries..........false
+2017-11-24 13:27:02.360 DEBUG 1009 --- [main] com.zaxxer.hikari.HikariConfig                          : jdbc4ConnectionTest.............false
+2017-11-24 13:27:02.360 DEBUG 1009 --- [main] com.zaxxer.hikari.HikariConfig                          : jdbcUrl.........................jdbc:h2:mem:tuneridedb;Mode=MySQL
+2017-11-24 13:27:02.360 DEBUG 1009 --- [main] com.zaxxer.hikari.HikariConfig                          : leakDetectionThreshold..........0
+2017-11-24 13:27:02.360 DEBUG 1009 --- [main] com.zaxxer.hikari.HikariConfig                          : maxLifetime.....................1800000
+2017-11-24 13:27:02.361 DEBUG 1009 --- [main] com.zaxxer.hikari.HikariConfig                          : maximumPoolSize.................5
+2017-11-24 13:27:02.361 DEBUG 1009 --- [main] com.zaxxer.hikari.HikariConfig                          : metricRegistry..................none
+2017-11-24 13:27:02.361 DEBUG 1009 --- [main] com.zaxxer.hikari.HikariConfig                          : metricsTrackerFactory...........none
+2017-11-24 13:27:02.361 DEBUG 1009 --- [main] com.zaxxer.hikari.HikariConfig                          : minimumIdle.....................5
+2017-11-24 13:27:02.361 DEBUG 1009 --- [main] com.zaxxer.hikari.HikariConfig                          : password........................<masked>
+2017-11-24 13:27:02.361 DEBUG 1009 --- [main] com.zaxxer.hikari.HikariConfig                          : poolName........................"HikariPool-1"
+2017-11-24 13:27:02.361 DEBUG 1009 --- [main] com.zaxxer.hikari.HikariConfig                          : readOnly........................false
+2017-11-24 13:27:02.361 DEBUG 1009 --- [main] com.zaxxer.hikari.HikariConfig                          : registerMbeans..................false
+2017-11-24 13:27:02.361 DEBUG 1009 --- [main] com.zaxxer.hikari.HikariConfig                          : scheduledExecutor...............none
+2017-11-24 13:27:02.362 DEBUG 1009 --- [main] com.zaxxer.hikari.HikariConfig                          : scheduledExecutorService........internal
+2017-11-24 13:27:02.362 DEBUG 1009 --- [main] com.zaxxer.hikari.HikariConfig                          : schema..........................none
+2017-11-24 13:27:02.362 DEBUG 1009 --- [main] com.zaxxer.hikari.HikariConfig                          : threadFactory...................internal
+2017-11-24 13:27:02.362 DEBUG 1009 --- [main] com.zaxxer.hikari.HikariConfig                          : transactionIsolation............default
+2017-11-24 13:27:02.362 DEBUG 1009 --- [main] com.zaxxer.hikari.HikariConfig                          : username........................"user"
+2017-11-24 13:27:02.362 DEBUG 1009 --- [main] com.zaxxer.hikari.HikariConfig                          : validationTimeout...............5000
+2017-11-24 13:27:02.362  INFO 1009 --- [main] com.zaxxer.hikari.HikariDataSource                      : HikariPool-1 - Starting...
+2017-11-24 13:27:02.442 DEBUG 1009 --- [main] com.zaxxer.hikari.pool.HikariPool                       : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:tuneridedb user=USER
+2017-11-24 13:27:02.443  INFO 1009 --- [main] com.zaxxer.hikari.HikariDataSource                      : HikariPool-1 - Start completed.
+2017-11-24 13:27:02.548 DEBUG 1009 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool                       : HikariPool-1 - Pool stats (total=1, active=0, idle=1, waiting=0)
+2017-11-24 13:27:02.549 DEBUG 1009 --- [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool                       : HikariPool-1 - Added connection conn1: url=jdbc:h2:mem:tuneridedb user=USER
+2017-11-24 13:27:02.550 DEBUG 1009 --- [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool                       : HikariPool-1 - Added connection conn2: url=jdbc:h2:mem:tuneridedb user=USER
+2017-11-24 13:27:02.550 DEBUG 1009 --- [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool                       : HikariPool-1 - Added connection conn3: url=jdbc:h2:mem:tuneridedb user=USER
+2017-11-24 13:27:02.551 DEBUG 1009 --- [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool                       : HikariPool-1 - Added connection conn4: url=jdbc:h2:mem:tuneridedb user=USER
+2017-11-24 13:27:02.551 DEBUG 1009 --- [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool                       : HikariPool-1 - After adding stats (total=5, active=0, idle=5, waiting=0)
+2017-11-24 13:27:03.924  WARN 1009 --- [main] .embedded.AnnotationConfigEmbeddedWebApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'org.springframework.boot.actuate.autoconfigure.ManagementWebSecurityAutoConfiguration$ManagementWebSecurityConfigurerAdapter': Unsatisfied dependency expressed through method 'setAuthenticationConfiguration' parameter 0; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'org.springframework.security.config.annotation.authentication.configuration.AuthenticationConfiguration' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+2017-11-24 13:27:03.926  INFO 1009 --- [main] com.zaxxer.hikari.HikariDataSource                      : HikariPool-1 - Shutdown initiated...
+2017-11-24 13:27:03.926 DEBUG 1009 --- [main] com.zaxxer.hikari.pool.HikariPool                       : HikariPool-1 - Before shutdown stats (total=5, active=0, idle=5, waiting=0)
+2017-11-24 13:27:03.927 DEBUG 1009 --- [HikariPool-1 connection closer] com.zaxxer.hikari.pool.PoolBase                         : HikariPool-1 - Closing connection conn0: url=jdbc:h2:mem:tuneridedb user=USER: (connection evicted)
+2017-11-24 13:27:03.928 DEBUG 1009 --- [HikariPool-1 connection closer] com.zaxxer.hikari.pool.PoolBase                         : HikariPool-1 - Closing connection conn1: url=jdbc:h2:mem:tuneridedb user=USER: (connection evicted)
+2017-11-24 13:27:03.928 DEBUG 1009 --- [HikariPool-1 connection closer] com.zaxxer.hikari.pool.PoolBase                         : HikariPool-1 - Closing connection conn2: url=jdbc:h2:mem:tuneridedb user=USER: (connection evicted)
+2017-11-24 13:27:03.928 DEBUG 1009 --- [HikariPool-1 connection closer] com.zaxxer.hikari.pool.PoolBase                         : HikariPool-1 - Closing connection conn3: url=jdbc:h2:mem:tuneridedb user=USER: (connection evicted)
+2017-11-24 13:27:03.928 DEBUG 1009 --- [HikariPool-1 connection closer] com.zaxxer.hikari.pool.PoolBase                         : HikariPool-1 - Closing connection conn4: url=jdbc:h2:mem:tuneridedb user=USER: (connection evicted)
+2017-11-24 13:27:03.935 DEBUG 1009 --- [main] com.zaxxer.hikari.pool.HikariPool                       : HikariPool-1 - After shutdown stats (total=0, active=0, idle=0, waiting=0)
+2017-11-24 13:27:03.935  INFO 1009 --- [main] com.zaxxer.hikari.HikariDataSource                      : HikariPool-1 - Shutdown completed.
+2017-11-24 13:27:03.937  INFO 1009 --- [main] org.apache.catalina.core.StandardService                : Stopping service [Tomcat]
+2017-11-24 13:27:04.047 ERROR 1009 --- [main] amework.boot.diagnostics.LoggingFailureAnalysisReporter : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 0 of method setAuthenticationConfiguration in org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter required a bean of type 'org.springframework.security.config.annotation.authentication.configuration.AuthenticationConfiguration' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'org.springframework.security.config.annotation.authentication.configuration.AuthenticationConfiguration' in your configuration.
+
+2017-11-24 13:28:03.739  INFO 1012 --- [main] com.tuneride.server.TunerideApplication                 : Starting TunerideApplication on Horatius-MacBook-Pro.local with PID 1012 (/Users/corandusadmin/Downloads/tuneride/target/classes started by corandusadmin in /Users/corandusadmin/Downloads/tuneride)
+2017-11-24 13:28:03.741 DEBUG 1012 --- [main] com.tuneride.server.TunerideApplication                 : Running with Spring Boot v1.5.8.RELEASE, Spring v4.3.12.RELEASE
+2017-11-24 13:28:03.741  INFO 1012 --- [main] com.tuneride.server.TunerideApplication                 : The following profiles are active: development
+2017-11-24 13:28:05.173  INFO 1012 --- [main] org.apache.catalina.core.StandardService                : Starting service [Tomcat]
+2017-11-24 13:28:05.174  INFO 1012 --- [main] org.apache.catalina.core.StandardEngine                 : Starting Servlet Engine: Apache Tomcat/8.5.23
+2017-11-24 13:28:05.253  INFO 1012 --- [localhost-startStop-1] he.catalina.core.ContainerBase.[Tomcat].[localhost].[/] : Initializing Spring embedded WebApplicationContext
+2017-11-24 13:28:05.485 DEBUG 1012 --- [main] com.zaxxer.hikari.HikariConfig                          : Driver class found in the HikariConfig class classloader sun.misc.Launcher$AppClassLoader@764c12b6
+2017-11-24 13:28:05.571 DEBUG 1012 --- [main] com.zaxxer.hikari.HikariConfig                          : HikariPool-1 - configuration:
+2017-11-24 13:28:05.573 DEBUG 1012 --- [main] com.zaxxer.hikari.HikariConfig                          : allowPoolSuspension.............false
+2017-11-24 13:28:05.573 DEBUG 1012 --- [main] com.zaxxer.hikari.HikariConfig                          : autoCommit......................true
+2017-11-24 13:28:05.573 DEBUG 1012 --- [main] com.zaxxer.hikari.HikariConfig                          : catalog.........................none
+2017-11-24 13:28:05.573 DEBUG 1012 --- [main] com.zaxxer.hikari.HikariConfig                          : connectionInitSql...............none
+2017-11-24 13:28:05.573 DEBUG 1012 --- [main] com.zaxxer.hikari.HikariConfig                          : connectionTestQuery.............none
+2017-11-24 13:28:05.573 DEBUG 1012 --- [main] com.zaxxer.hikari.HikariConfig                          : connectionTimeout...............30000
+2017-11-24 13:28:05.574 DEBUG 1012 --- [main] com.zaxxer.hikari.HikariConfig                          : dataSource......................none
+2017-11-24 13:28:05.574 DEBUG 1012 --- [main] com.zaxxer.hikari.HikariConfig                          : dataSourceClassName.............none
+2017-11-24 13:28:05.574 DEBUG 1012 --- [main] com.zaxxer.hikari.HikariConfig                          : dataSourceJNDI..................none
+2017-11-24 13:28:05.575 DEBUG 1012 --- [main] com.zaxxer.hikari.HikariConfig                          : dataSourceProperties............{password=<masked>}
+2017-11-24 13:28:05.575 DEBUG 1012 --- [main] com.zaxxer.hikari.HikariConfig                          : driverClassName................."org.h2.Driver"
+2017-11-24 13:28:05.575 DEBUG 1012 --- [main] com.zaxxer.hikari.HikariConfig                          : healthCheckProperties...........{}
+2017-11-24 13:28:05.576 DEBUG 1012 --- [main] com.zaxxer.hikari.HikariConfig                          : healthCheckRegistry.............none
+2017-11-24 13:28:05.576 DEBUG 1012 --- [main] com.zaxxer.hikari.HikariConfig                          : idleTimeout.....................600000
+2017-11-24 13:28:05.576 DEBUG 1012 --- [main] com.zaxxer.hikari.HikariConfig                          : initializationFailFast..........true
+2017-11-24 13:28:05.576 DEBUG 1012 --- [main] com.zaxxer.hikari.HikariConfig                          : initializationFailTimeout.......1
+2017-11-24 13:28:05.576 DEBUG 1012 --- [main] com.zaxxer.hikari.HikariConfig                          : isolateInternalQueries..........false
+2017-11-24 13:28:05.576 DEBUG 1012 --- [main] com.zaxxer.hikari.HikariConfig                          : jdbc4ConnectionTest.............false
+2017-11-24 13:28:05.576 DEBUG 1012 --- [main] com.zaxxer.hikari.HikariConfig                          : jdbcUrl.........................jdbc:h2:mem:tuneridedb;Mode=MySQL
+2017-11-24 13:28:05.577 DEBUG 1012 --- [main] com.zaxxer.hikari.HikariConfig                          : leakDetectionThreshold..........0
+2017-11-24 13:28:05.577 DEBUG 1012 --- [main] com.zaxxer.hikari.HikariConfig                          : maxLifetime.....................1800000
+2017-11-24 13:28:05.577 DEBUG 1012 --- [main] com.zaxxer.hikari.HikariConfig                          : maximumPoolSize.................5
+2017-11-24 13:28:05.577 DEBUG 1012 --- [main] com.zaxxer.hikari.HikariConfig                          : metricRegistry..................none
+2017-11-24 13:28:05.577 DEBUG 1012 --- [main] com.zaxxer.hikari.HikariConfig                          : metricsTrackerFactory...........none
+2017-11-24 13:28:05.577 DEBUG 1012 --- [main] com.zaxxer.hikari.HikariConfig                          : minimumIdle.....................5
+2017-11-24 13:28:05.577 DEBUG 1012 --- [main] com.zaxxer.hikari.HikariConfig                          : password........................<masked>
+2017-11-24 13:28:05.577 DEBUG 1012 --- [main] com.zaxxer.hikari.HikariConfig                          : poolName........................"HikariPool-1"
+2017-11-24 13:28:05.577 DEBUG 1012 --- [main] com.zaxxer.hikari.HikariConfig                          : readOnly........................false
+2017-11-24 13:28:05.578 DEBUG 1012 --- [main] com.zaxxer.hikari.HikariConfig                          : registerMbeans..................false
+2017-11-24 13:28:05.578 DEBUG 1012 --- [main] com.zaxxer.hikari.HikariConfig                          : scheduledExecutor...............none
+2017-11-24 13:28:05.578 DEBUG 1012 --- [main] com.zaxxer.hikari.HikariConfig                          : scheduledExecutorService........internal
+2017-11-24 13:28:05.578 DEBUG 1012 --- [main] com.zaxxer.hikari.HikariConfig                          : schema..........................none
+2017-11-24 13:28:05.578 DEBUG 1012 --- [main] com.zaxxer.hikari.HikariConfig                          : threadFactory...................internal
+2017-11-24 13:28:05.578 DEBUG 1012 --- [main] com.zaxxer.hikari.HikariConfig                          : transactionIsolation............default
+2017-11-24 13:28:05.579 DEBUG 1012 --- [main] com.zaxxer.hikari.HikariConfig                          : username........................"user"
+2017-11-24 13:28:05.579 DEBUG 1012 --- [main] com.zaxxer.hikari.HikariConfig                          : validationTimeout...............5000
+2017-11-24 13:28:05.579  INFO 1012 --- [main] com.zaxxer.hikari.HikariDataSource                      : HikariPool-1 - Starting...
+2017-11-24 13:28:05.656 DEBUG 1012 --- [main] com.zaxxer.hikari.pool.HikariPool                       : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:tuneridedb user=USER
+2017-11-24 13:28:05.658  INFO 1012 --- [main] com.zaxxer.hikari.HikariDataSource                      : HikariPool-1 - Start completed.
+2017-11-24 13:28:05.758 DEBUG 1012 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool                       : HikariPool-1 - Pool stats (total=1, active=0, idle=1, waiting=0)
+2017-11-24 13:28:05.760 DEBUG 1012 --- [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool                       : HikariPool-1 - Added connection conn1: url=jdbc:h2:mem:tuneridedb user=USER
+2017-11-24 13:28:05.761 DEBUG 1012 --- [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool                       : HikariPool-1 - Added connection conn2: url=jdbc:h2:mem:tuneridedb user=USER
+2017-11-24 13:28:05.762 DEBUG 1012 --- [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool                       : HikariPool-1 - Added connection conn3: url=jdbc:h2:mem:tuneridedb user=USER
+2017-11-24 13:28:05.763 DEBUG 1012 --- [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool                       : HikariPool-1 - Added connection conn4: url=jdbc:h2:mem:tuneridedb user=USER
+2017-11-24 13:28:05.763 DEBUG 1012 --- [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool                       : HikariPool-1 - After adding stats (total=5, active=0, idle=5, waiting=0)
+2017-11-24 13:28:07.163  WARN 1012 --- [main] .embedded.AnnotationConfigEmbeddedWebApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'org.springframework.boot.actuate.autoconfigure.ManagementWebSecurityAutoConfiguration$ManagementWebSecurityConfigurerAdapter': Unsatisfied dependency expressed through method 'setAuthenticationConfiguration' parameter 0; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'org.springframework.security.config.annotation.authentication.configuration.AuthenticationConfiguration' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+2017-11-24 13:28:07.165  INFO 1012 --- [main] com.zaxxer.hikari.HikariDataSource                      : HikariPool-1 - Shutdown initiated...
+2017-11-24 13:28:07.166 DEBUG 1012 --- [main] com.zaxxer.hikari.pool.HikariPool                       : HikariPool-1 - Before shutdown stats (total=5, active=0, idle=5, waiting=0)
+2017-11-24 13:28:07.168 DEBUG 1012 --- [HikariPool-1 connection closer] com.zaxxer.hikari.pool.PoolBase                         : HikariPool-1 - Closing connection conn0: url=jdbc:h2:mem:tuneridedb user=USER: (connection evicted)
+2017-11-24 13:28:07.169 DEBUG 1012 --- [HikariPool-1 connection closer] com.zaxxer.hikari.pool.PoolBase                         : HikariPool-1 - Closing connection conn1: url=jdbc:h2:mem:tuneridedb user=USER: (connection evicted)
+2017-11-24 13:28:07.169 DEBUG 1012 --- [HikariPool-1 connection closer] com.zaxxer.hikari.pool.PoolBase                         : HikariPool-1 - Closing connection conn2: url=jdbc:h2:mem:tuneridedb user=USER: (connection evicted)
+2017-11-24 13:28:07.169 DEBUG 1012 --- [HikariPool-1 connection closer] com.zaxxer.hikari.pool.PoolBase                         : HikariPool-1 - Closing connection conn3: url=jdbc:h2:mem:tuneridedb user=USER: (connection evicted)
+2017-11-24 13:28:07.169 DEBUG 1012 --- [HikariPool-1 connection closer] com.zaxxer.hikari.pool.PoolBase                         : HikariPool-1 - Closing connection conn4: url=jdbc:h2:mem:tuneridedb user=USER: (connection evicted)
+2017-11-24 13:28:07.178 DEBUG 1012 --- [main] com.zaxxer.hikari.pool.HikariPool                       : HikariPool-1 - After shutdown stats (total=0, active=0, idle=0, waiting=0)
+2017-11-24 13:28:07.178  INFO 1012 --- [main] com.zaxxer.hikari.HikariDataSource                      : HikariPool-1 - Shutdown completed.
+2017-11-24 13:28:07.180  INFO 1012 --- [main] org.apache.catalina.core.StandardService                : Stopping service [Tomcat]
+2017-11-24 13:28:07.322 ERROR 1012 --- [main] amework.boot.diagnostics.LoggingFailureAnalysisReporter : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 0 of method setAuthenticationConfiguration in org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter required a bean of type 'org.springframework.security.config.annotation.authentication.configuration.AuthenticationConfiguration' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'org.springframework.security.config.annotation.authentication.configuration.AuthenticationConfiguration' in your configuration.
+
+2017-11-24 13:29:00.353  INFO 1015 --- [main] com.tuneride.server.TunerideApplication                 : Starting TunerideApplication on Horatius-MacBook-Pro.local with PID 1015 (/Users/corandusadmin/Downloads/tuneride/target/classes started by corandusadmin in /Users/corandusadmin/Downloads/tuneride)
+2017-11-24 13:29:00.355 DEBUG 1015 --- [main] com.tuneride.server.TunerideApplication                 : Running with Spring Boot v1.5.8.RELEASE, Spring v4.3.12.RELEASE
+2017-11-24 13:29:00.355  INFO 1015 --- [main] com.tuneride.server.TunerideApplication                 : The following profiles are active: development
+2017-11-24 13:29:01.647  INFO 1015 --- [main] org.apache.catalina.core.StandardService                : Starting service [Tomcat]
+2017-11-24 13:29:01.648  INFO 1015 --- [main] org.apache.catalina.core.StandardEngine                 : Starting Servlet Engine: Apache Tomcat/8.5.23
+2017-11-24 13:29:01.723  INFO 1015 --- [localhost-startStop-1] he.catalina.core.ContainerBase.[Tomcat].[localhost].[/] : Initializing Spring embedded WebApplicationContext
+2017-11-24 13:29:01.939 DEBUG 1015 --- [main] com.zaxxer.hikari.HikariConfig                          : Driver class found in the HikariConfig class classloader sun.misc.Launcher$AppClassLoader@764c12b6
+2017-11-24 13:29:02.020 DEBUG 1015 --- [main] com.zaxxer.hikari.HikariConfig                          : HikariPool-1 - configuration:
+2017-11-24 13:29:02.021 DEBUG 1015 --- [main] com.zaxxer.hikari.HikariConfig                          : allowPoolSuspension.............false
+2017-11-24 13:29:02.022 DEBUG 1015 --- [main] com.zaxxer.hikari.HikariConfig                          : autoCommit......................true
+2017-11-24 13:29:02.022 DEBUG 1015 --- [main] com.zaxxer.hikari.HikariConfig                          : catalog.........................none
+2017-11-24 13:29:02.022 DEBUG 1015 --- [main] com.zaxxer.hikari.HikariConfig                          : connectionInitSql...............none
+2017-11-24 13:29:02.022 DEBUG 1015 --- [main] com.zaxxer.hikari.HikariConfig                          : connectionTestQuery.............none
+2017-11-24 13:29:02.023 DEBUG 1015 --- [main] com.zaxxer.hikari.HikariConfig                          : connectionTimeout...............30000
+2017-11-24 13:29:02.023 DEBUG 1015 --- [main] com.zaxxer.hikari.HikariConfig                          : dataSource......................none
+2017-11-24 13:29:02.024 DEBUG 1015 --- [main] com.zaxxer.hikari.HikariConfig                          : dataSourceClassName.............none
+2017-11-24 13:29:02.024 DEBUG 1015 --- [main] com.zaxxer.hikari.HikariConfig                          : dataSourceJNDI..................none
+2017-11-24 13:29:02.025 DEBUG 1015 --- [main] com.zaxxer.hikari.HikariConfig                          : dataSourceProperties............{password=<masked>}
+2017-11-24 13:29:02.025 DEBUG 1015 --- [main] com.zaxxer.hikari.HikariConfig                          : driverClassName................."org.h2.Driver"
+2017-11-24 13:29:02.025 DEBUG 1015 --- [main] com.zaxxer.hikari.HikariConfig                          : healthCheckProperties...........{}
+2017-11-24 13:29:02.025 DEBUG 1015 --- [main] com.zaxxer.hikari.HikariConfig                          : healthCheckRegistry.............none
+2017-11-24 13:29:02.026 DEBUG 1015 --- [main] com.zaxxer.hikari.HikariConfig                          : idleTimeout.....................600000
+2017-11-24 13:29:02.026 DEBUG 1015 --- [main] com.zaxxer.hikari.HikariConfig                          : initializationFailFast..........true
+2017-11-24 13:29:02.026 DEBUG 1015 --- [main] com.zaxxer.hikari.HikariConfig                          : initializationFailTimeout.......1
+2017-11-24 13:29:02.026 DEBUG 1015 --- [main] com.zaxxer.hikari.HikariConfig                          : isolateInternalQueries..........false
+2017-11-24 13:29:02.026 DEBUG 1015 --- [main] com.zaxxer.hikari.HikariConfig                          : jdbc4ConnectionTest.............false
+2017-11-24 13:29:02.026 DEBUG 1015 --- [main] com.zaxxer.hikari.HikariConfig                          : jdbcUrl.........................jdbc:h2:mem:tuneridedb;Mode=MySQL
+2017-11-24 13:29:02.026 DEBUG 1015 --- [main] com.zaxxer.hikari.HikariConfig                          : leakDetectionThreshold..........0
+2017-11-24 13:29:02.027 DEBUG 1015 --- [main] com.zaxxer.hikari.HikariConfig                          : maxLifetime.....................1800000
+2017-11-24 13:29:02.027 DEBUG 1015 --- [main] com.zaxxer.hikari.HikariConfig                          : maximumPoolSize.................5
+2017-11-24 13:29:02.027 DEBUG 1015 --- [main] com.zaxxer.hikari.HikariConfig                          : metricRegistry..................none
+2017-11-24 13:29:02.027 DEBUG 1015 --- [main] com.zaxxer.hikari.HikariConfig                          : metricsTrackerFactory...........none
+2017-11-24 13:29:02.027 DEBUG 1015 --- [main] com.zaxxer.hikari.HikariConfig                          : minimumIdle.....................5
+2017-11-24 13:29:02.027 DEBUG 1015 --- [main] com.zaxxer.hikari.HikariConfig                          : password........................<masked>
+2017-11-24 13:29:02.027 DEBUG 1015 --- [main] com.zaxxer.hikari.HikariConfig                          : poolName........................"HikariPool-1"
+2017-11-24 13:29:02.027 DEBUG 1015 --- [main] com.zaxxer.hikari.HikariConfig                          : readOnly........................false
+2017-11-24 13:29:02.027 DEBUG 1015 --- [main] com.zaxxer.hikari.HikariConfig                          : registerMbeans..................false
+2017-11-24 13:29:02.028 DEBUG 1015 --- [main] com.zaxxer.hikari.HikariConfig                          : scheduledExecutor...............none
+2017-11-24 13:29:02.028 DEBUG 1015 --- [main] com.zaxxer.hikari.HikariConfig                          : scheduledExecutorService........internal
+2017-11-24 13:29:02.028 DEBUG 1015 --- [main] com.zaxxer.hikari.HikariConfig                          : schema..........................none
+2017-11-24 13:29:02.028 DEBUG 1015 --- [main] com.zaxxer.hikari.HikariConfig                          : threadFactory...................internal
+2017-11-24 13:29:02.028 DEBUG 1015 --- [main] com.zaxxer.hikari.HikariConfig                          : transactionIsolation............default
+2017-11-24 13:29:02.028 DEBUG 1015 --- [main] com.zaxxer.hikari.HikariConfig                          : username........................"user"
+2017-11-24 13:29:02.028 DEBUG 1015 --- [main] com.zaxxer.hikari.HikariConfig                          : validationTimeout...............5000
+2017-11-24 13:29:02.028  INFO 1015 --- [main] com.zaxxer.hikari.HikariDataSource                      : HikariPool-1 - Starting...
+2017-11-24 13:29:02.092 DEBUG 1015 --- [main] com.zaxxer.hikari.pool.HikariPool                       : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:tuneridedb user=USER
+2017-11-24 13:29:02.093  INFO 1015 --- [main] com.zaxxer.hikari.HikariDataSource                      : HikariPool-1 - Start completed.
+2017-11-24 13:29:02.197 DEBUG 1015 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool                       : HikariPool-1 - Pool stats (total=1, active=0, idle=1, waiting=0)
+2017-11-24 13:29:02.199 DEBUG 1015 --- [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool                       : HikariPool-1 - Added connection conn1: url=jdbc:h2:mem:tuneridedb user=USER
+2017-11-24 13:29:02.200 DEBUG 1015 --- [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool                       : HikariPool-1 - Added connection conn2: url=jdbc:h2:mem:tuneridedb user=USER
+2017-11-24 13:29:02.200 DEBUG 1015 --- [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool                       : HikariPool-1 - Added connection conn3: url=jdbc:h2:mem:tuneridedb user=USER
+2017-11-24 13:29:02.201 DEBUG 1015 --- [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool                       : HikariPool-1 - Added connection conn4: url=jdbc:h2:mem:tuneridedb user=USER
+2017-11-24 13:29:02.201 DEBUG 1015 --- [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool                       : HikariPool-1 - After adding stats (total=5, active=0, idle=5, waiting=0)
+2017-11-24 13:29:03.876  INFO 1015 --- [main] org.apache.coyote.http11.Http11NioProtocol              : Initializing ProtocolHandler ["http-nio-8080"]
+2017-11-24 13:29:03.883  INFO 1015 --- [main] org.apache.coyote.http11.Http11NioProtocol              : Starting ProtocolHandler ["http-nio-8080"]
+2017-11-24 13:29:03.898  INFO 1015 --- [main] org.apache.tomcat.util.net.NioSelectorPool              : Using a shared selector for servlet write/read
+2017-11-24 13:29:03.918  INFO 1015 --- [main] com.tuneride.server.TunerideApplication                 : Started TunerideApplication in 3.763 seconds (JVM running for 4.518)
+2017-11-24 13:29:19.708  INFO 1015 --- [http-nio-8080-exec-1] he.catalina.core.ContainerBase.[Tomcat].[localhost].[/] : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2017-11-24 13:29:27.759 DEBUG 1015 --- [http-nio-8080-exec-2] org.hibernate.SQL                                       : select tuningeven0_.id as id1_0_, tuningeven0_.city as city2_0_, tuningeven0_.country as country3_0_, tuningeven0_.description as descript4_0_, tuningeven0_.latitude as latitude5_0_, tuningeven0_.longitude as longitud6_0_, tuningeven0_.name as name7_0_, tuningeven0_.poster as poster8_0_ from tuning_event tuningeven0_
+2017-11-24 13:29:27.830 DEBUG 1015 --- [http-nio-8080-exec-2] com.zaxxer.hikari.pool.PoolBase                         : HikariPool-1 - Reset (readOnly) on connection conn0: url=jdbc:h2:mem:tuneridedb user=USER
+2017-11-24 13:29:32.204 DEBUG 1015 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool                       : HikariPool-1 - Pool stats (total=5, active=0, idle=5, waiting=0)
+2017-11-24 13:30:02.211 DEBUG 1015 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool                       : HikariPool-1 - Pool stats (total=5, active=0, idle=5, waiting=0)
+2017-11-24 13:30:32.214 DEBUG 1015 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool                       : HikariPool-1 - Pool stats (total=5, active=0, idle=5, waiting=0)
+2017-11-24 13:31:02.217 DEBUG 1015 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool                       : HikariPool-1 - Pool stats (total=5, active=0, idle=5, waiting=0)
+2017-11-24 13:31:32.219 DEBUG 1015 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool                       : HikariPool-1 - Pool stats (total=5, active=0, idle=5, waiting=0)
+2017-11-24 13:32:02.224 DEBUG 1015 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool                       : HikariPool-1 - Pool stats (total=5, active=0, idle=5, waiting=0)
+2017-11-24 13:32:32.229 DEBUG 1015 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool                       : HikariPool-1 - Pool stats (total=5, active=0, idle=5, waiting=0)
