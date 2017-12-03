@@ -1,0 +1,10 @@
+users       : pass
+john.doe    : jtwpass
+admin.admin : jtwpass
+
+
+How to generate an access token for non-admin:
+curl testjwtclientid:XY7kmzoNzl100@localhost:8080/oauth/token -d grant_type=password -d username=john.doe -d password=jwtpass.
+
+Make requests
+curl http://localhost:8080/springjwt/events -H "Authorization: Bearer token_received_from_the_server_here"

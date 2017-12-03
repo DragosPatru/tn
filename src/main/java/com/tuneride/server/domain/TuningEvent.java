@@ -20,12 +20,13 @@ public class TuningEvent {
 	private String name;
 	
 	@Column
-	@NotNull
 	private String city;
 	
 	@Column
-	@NotNull
 	private String country;
+	
+	@Column
+	private String street;
 	
 	@Column
 	private byte[] poster;
@@ -41,7 +42,27 @@ public class TuningEvent {
 	@Column
 	private String description;
 	
+	@Column
+	private Long timestamp;
 	
+	public String getCity() {
+		return city;
+	}
+	public void setCity(String city) {
+		this.city = city;
+	}
+	public String getCountry() {
+		return country;
+	}
+	public void setCountry(String country) {
+		this.country = country;
+	}
+	public Long getTimestamp() {
+		return timestamp;
+	}
+	public void setTimestamp(Long timestamp) {
+		this.timestamp = timestamp;
+	}
 	public String getDescription() {
 		return description;
 	}
@@ -79,4 +100,10 @@ public class TuningEvent {
 		this.id = id;
 	}
 	
+	public String getStreet() {
+		return street;
+	}
+	public void setStreet(String street) {
+		this.street = street;
+	}
 }

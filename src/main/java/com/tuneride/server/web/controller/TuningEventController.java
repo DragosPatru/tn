@@ -7,6 +7,7 @@ import javax.persistence.EntityNotFoundException;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;
+import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -18,11 +19,13 @@ import com.tuneride.server.domain.TuningEvent;
 import com.tuneride.server.service.TuningEventService;
 
 @RestController
+@RequestMapping("/springjwt")
 public class TuningEventController {
 	
 	@Inject
 	private TuningEventService tuningEventService;
 	
+	@PreAuthorize("hasAuthority('ADMIN_USER') or hasAuthority('STANDARD_USER')")
 	@RequestMapping(value = "/events", method = RequestMethod.GET, produces = MediaType.APPLICATION_JSON_VALUE)
 	public ResponseEntity<Iterable<TuningEvent>> getEvents(@RequestParam(value="name", defaultValue="") String name) {
 		Iterable<TuningEvent> events = null;
@@ -43,6 +46,18 @@ public class TuningEventController {
 			return new ResponseEntity<TuningEvent>(HttpStatus.CONFLICT);
 		}
 		return new ResponseEntity<TuningEvent>(tuningEvent, HttpStatus.CREATED);
+	}
+	
+	@RequestMapping(value = "/event/{id}", method = RequestMethod.GET,  produces = MediaType.APPLICATION_JSON_VALUE)
+	public ResponseEntity<TuningEvent> getById(@PathVariable Long id) {
+		TuningEvent tuningEvent = null;
+		try {
+			tuningEvent = tuningEventService.findOne(id);
+			
+		} catch (EntityExistsException e) {
+			return new ResponseEntity<TuningEvent>(HttpStatus.NOT_FOUND);
+		}
+		return new ResponseEntity<TuningEvent>(tuningEvent, HttpStatus.OK);
 	}
 
 	@RequestMapping(value = "/event", method = RequestMethod.PUT, produces = MediaType.APPLICATION_JSON_VALUE)
